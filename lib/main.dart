@@ -9,6 +9,7 @@ import 'package:fugacidade/Tests/PhotoViewExampleScreen.dart';
 
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized(); //Prevents from calculate widgets scale before screen properties are available
   runApp(const MyApp());
 }
 
